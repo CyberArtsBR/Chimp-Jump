@@ -51,7 +51,7 @@ const musicToggle=document.getElementById('musicToggle');
 const bgm=document.getElementById('bgm');
 let active=0,locked=false,ready=false,touchStartX=null,musicEnabled=true,musicPending=false;
 
-bgm.volume=.16;
+bgm.volume=.096; // 40% quieter than the previous 0.16 launcher level.
 function updateMusicStatus(){
   const playing=!bgm.paused;
   musicStatus.textContent=playing?'Music: playing':'Music: paused';
