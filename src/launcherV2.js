@@ -20,7 +20,7 @@ document.body.innerHTML=`
   <div class="carousel" id="carousel">
     <div class="cart-wrap" role="button" tabindex="0" aria-label="Play Chimp Jump" data-index="0"><div class="cart-entry"><div class="float"><div class="cart-body"><img class="cart-image" alt="Chimp Jump cartridge" src="${asset('launcher/cartridge-jump.png')}" /></div></div></div></div>
     <div class="cart-wrap" role="button" tabindex="0" aria-label="Play Chimp Dash" data-index="1"><div class="cart-entry"><div class="float"><div class="cart-body"><img class="cart-image" alt="Chimp Dash cartridge" src="${asset('launcher/cartridge-dash.png')}" /></div></div></div></div>
-    <div class="cart-wrap" role="button" tabindex="0" aria-label="Play Chimpions Card Arena" data-index="2"><div class="cart-entry"><div class="float"><div class="cart-body"><img class="cart-image" alt="Chimpions Card Arena cartridge" src="${asset('launcher/cartridge-arena.png')}" /></div></div></div></div>
+    <div class="cart-wrap" role="button" tabindex="0" aria-label="Play Chimp Hawk Underground" data-index="2"><div class="cart-entry"><div class="float"><div class="cart-body"><img class="cart-image" alt="Chimp Hawk Underground cartridge" src="${asset('launcher/cartridge-chimp-hawk-underground.png')}" /></div></div></div></div>
     <div class="cart-wrap" role="button" tabindex="0" aria-label="Play Chimpions Ski" data-index="3"><div class="cart-entry"><div class="float"><div class="cart-body"><img class="cart-image" alt="Chimpions Ski cartridge" src="${asset('launcher/cartridge-ski-hq.webp')}" /></div></div></div></div>
     <div class="cart-wrap" role="button" tabindex="0" aria-label="Play Halfpipe Chimp" data-index="4"><div class="cart-entry"><div class="float"><div class="cart-body"><img class="cart-image" alt="Halfpipe Chimp cartridge" src="${asset('launcher/cartridge-halfpipe-transparent.webp')}" /></div></div></div></div>
   </div>
@@ -37,7 +37,7 @@ document.body.innerHTML=`
 const games=[
   {name:'Chimp Jump',url:BASE+'?play=jump',image:asset('launcher/cartridge-jump.png')},
   {name:'Chimp Dash',url:BASE+'?dash=1',image:asset('launcher/cartridge-dash.png')},
-  {name:'Chimpions Card Arena',url:BASE+'?arena=1',image:asset('launcher/cartridge-arena.png')},
+  {name:'Chimp Hawk Underground',url:'https://streetskate.onrender.com/',image:asset('launcher/cartridge-chimp-hawk-underground.png')},
   {name:'Chimpions Ski',url:'https://chimpions-ski.onrender.com',image:asset('launcher/cartridge-ski-hq.webp')},
   {name:'Halfpipe Chimp',url:'https://chimpions-halfpipe.onrender.com/',image:asset('launcher/cartridge-halfpipe-transparent.webp')}
 ];
